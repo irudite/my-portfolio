@@ -12,7 +12,8 @@ const Hero = () => {
             <h2 className="text-2xl text-gray-400 mb-12">Aspiring Software Engineer</h2>
             <p className="text-lg text-gray-400 leading-loose">
               I build clean, performant, and modern web applications with React,
-              Next.js, and TypeScript. Passionate about fintech and AI/ML.
+              Next.js, and TypeScript. Passionate about systems development and
+              low-level programming.
             </p>
           </div>
 
@@ -64,21 +65,55 @@ const Hero = () => {
           <section id="experience" className="mb-48 space-y-10">
             <h2 className="text-5xl font-bold text-white">Experience</h2>
             <div className="space-y-6">
-              <p className="text-base text-gray-500">2024 — Present</p>
+              <p className="text-base text-gray-500">August 2025 — Present</p>
               <h3 className="text-2xl font-semibold text-white">
                 DevOps Engineering Intern · BVA Bear's IT Solutions
               </h3>
               <p className="text-lg text-gray-400 leading-relaxed">
-                Worked on full-stack features using React, Node, and PostgreSQL.
-                Collaborated with cross-functional teams to deliver scalable
-                solutions.
+                Automated onboarding workflows with PowerAutomate scripts, reducing setup time by 90%. 
+                Built a Next.js admin dashboard with Azure AD + Microsoft Graph API that streamlined 
+                task management and cut HR inquiries by 75%.
+              </p>
+              <div className="flex gap-3 mt-2 text-sm">
+                <span className="px-3 py-1 bg-gray-800 rounded">Azure</span>
+                <span className="px-3 py-1 bg-gray-800 rounded">Next.js</span>
+                <span className="px-3 py-1 bg-gray-800 rounded">Bash</span>
+              </div>
+            </div>
+            <div className="space-y-6">
+              <p className="text-base text-gray-500">August 2025 — Present</p>
+              <h3 className="text-2xl font-semibold text-white">
+                Software Engineering Teaching Assistant
+              </h3>
+              <p className="text-lg text-gray-400 leading-relaxed">
+                Mentored 50+ students on coding standards, debugging, full-stack
+                development, and databases. Held weekly office hours to help students
+                design, implement, and test software projects that improved user experience.
               </p>
               <div className="flex gap-3 mt-2 text-sm">
                 <span className="px-3 py-1 bg-gray-800 rounded">React</span>
-                <span className="px-3 py-1 bg-gray-800 rounded">Node.js</span>
-                <span className="px-3 py-1 bg-gray-800 rounded">PostgreSQL</span>
+                <span className="px-3 py-1 bg-gray-800 rounded">JDBC</span>
+                <span className="px-3 py-1 bg-gray-800 rounded">Maven</span>
               </div>
             </div>
+            <div className="space-y-6">
+              <p className="text-base text-gray-500">August 2024 — September 2025</p>
+              <h3 className="text-2xl font-semibold text-white">
+                Computer Vision Research Fellow
+              </h3>
+              <p className="text-lg text-gray-400 leading-relaxed">
+                Developed ML workflows in Python for UAV post-disaster analysis,
+                boosting annotation throughput by 70%. Processed 30,000+ aerial
+                frames with Detectron2, DVIS++, and TMaNNet, improving semantic
+                segmentation accuracy by 22%.
+              </p>
+              <div className="flex gap-3 mt-2 text-sm">
+                <span className="px-3 py-1 bg-gray-800 rounded">Python</span>
+                <span className="px-3 py-1 bg-gray-800 rounded">OpenCV</span>
+                <span className="px-3 py-1 bg-gray-800 rounded">Latex</span>
+              </div>
+            </div>
+
           </section>
 
           {/* Projects Section */}
@@ -95,13 +130,13 @@ const Hero = () => {
                 title="Fincrate"
                 description="A web app to track stocks and crypto in one place with live API data."
                 image="/Fincrate.png"
-                tech={["React", "TailwindCSS", "Firebase"]}
+                tech={["React", "TailwindCSS", "Supabase"]}
               />
               <ProjectCard
                 title="Portfolio Website"
                 description="My old portfolio website used to display my projects & experiences."
                 image="/Portfolio.png"
-                tech={["React", "TailwindCSS", "Firebase"]}
+                tech={["React", "CSS"]}
               />
             </div>
           </section>
