@@ -158,18 +158,23 @@ const Hero = () => {
                 description="A 24 hour hackathon project created to aid in housing instability."
                 image="/FoundationFirst.png"
                 tech={["React", "TailwindCSS", "Supabase"]}
+                github="https://github.com/irudite/foundationfirst"   // <-- add this
               />
+
               <ProjectCard
                 title="Fincrate"
                 description="A web app to track stocks and crypto in one place with live API data."
                 image="/Fincrate.png"
                 tech={["React", "TailwindCSS", "Supabase"]}
+                github="https://github.com/irudite/fincrate"   // <-- add this
               />
+
               <ProjectCard
                 title="Portfolio Website"
                 description="My old portfolio website used to display my projects & experiences."
                 image="/Portfolio.png"
                 tech={["React", "CSS"]}
+                github="https://github.com/irudite/portfolio"   // <-- add this
               />
             </div>
           </section>
