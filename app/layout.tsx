@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CursorHighlight from "@/components/custom/CursorHighlight";
 import { VT323 } from "next/font/google";
 import "./globals.css";
 
@@ -14,14 +15,14 @@ export const metadata: Metadata = {
   description: "Kerrick Truong Portfolio Website",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={vt323.variable}>
-      <body className="font-[var(--font-vt323)]">{children}</body>
+    <html lang="en">
+      <body className="bg-gray-950 text-gray-200">
+        <CursorHighlight />
+        {children}
+      </body>
     </html>
   );
 }
+

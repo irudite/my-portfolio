@@ -5,9 +5,10 @@ interface ProjectCardProps {
   description: string;
   image: string;
   tech: string[];
+  github: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, tech }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, tech, github }) => {
   return (
     <div className="bg-gray-900 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow border border-gray-800">
       {/* Project Image */}
@@ -22,7 +23,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, te
 
       {/* Content */}
       <div className="p-6">
-        <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
+        <h3 className="text-xl font-semibold text-white mb-2">{title} - <a href={github} target="_blank" className="text-gray-300 underline">
+          Github
+        </a>
+        </h3>
         <p className="text-gray-400 text-sm mb-4">{description}</p>
 
         {/* Tech badges */}
