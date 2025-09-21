@@ -7,9 +7,10 @@ const Hero = () => {
         {/* Left Sidebar */}
         <aside className="w-full lg:w-1/3 p-8 sm:p-12 lg:p-20 flex flex-col justify-between sticky top-0 h-auto lg:h-screen">
           <div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 lg:mb-8">
+            <h1 className="text-6xl font-gamer text-white mb-8 transition-transform duration-300 hover:scale-110">
               Kerrick Truong
             </h1>
+
             <h2 className="text-lg sm:text-xl lg:text-2xl text-gray-400 mb-6 lg:mb-12">
               Aspiring Software Engineer
             </h2>
@@ -228,7 +229,7 @@ const Hero = () => {
                 title="Fincrate"
                 description="A web app to track stocks and crypto in one place with live API data."
                 image="/Fincrate.png"
-                tech={["React", "TailwindCSS", "Supabase"]}
+                tech={["React", "Node.js", "TailwindCSS", "Firebase"]}
                 github="https://github.com/irudite/fincrate"   // <-- add this
               />
 
@@ -236,7 +237,7 @@ const Hero = () => {
                 title="Portfolio Website"
                 description="My old portfolio website used to display my projects & experiences."
                 image="/Portfolio.png"
-                tech={["React", "CSS"]}
+                tech={["HTML", "Javascript", "CSS"]}
                 github="https://github.com/irudite/portfolio"   // <-- add this
               />
             </div>
