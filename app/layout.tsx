@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${vt323.variable}`}>
       <body className="bg-gray-950 text-gray-200">
         <CursorHighlight />
         {children}

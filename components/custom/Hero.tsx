@@ -49,36 +49,99 @@ const Hero = () => {
         {/* Right Content */}
         <main className="w-full lg:w-2/3 p-8 sm:p-12 lg:p-20 overflow-y-auto">
           {/* About Section */}
-          <section id="about" className="mb-24 lg:mb-48 space-y-10">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
-              About Me
-            </h2>
-            <p className="text-base sm:text-lg text-gray-400 leading-relaxed sm:leading-loose">
-              I’m a computer science undergraduate at Lehigh University with a
-              strong interest in software engineering, AI, and fintech. I enjoy
-              taking ideas from concept to code and building applications that
-              are both practical and visually engaging. Over the past few years,
-              I’ve developed projects ranging from full-stack web apps and
-              mobile experiences to AI-powered tools, giving me a solid
-              foundation across frontend, backend, and data technologies.
-              <br />
-              <br />
-              My primary focus is creating clean, modern web applications with
-              React, Next.js, and TypeScript. On the backend, I’ve worked with
-              Java, Node, and PostgreSQL to design scalable APIs and databases.
-              I also enjoy exploring AI/ML, computer vision, and data-driven
-              applications — areas where I see huge potential to combine
-              technical rigor with creativity.
-              <br />
-              <br />
-              Outside of class and projects, I’m constantly learning new
-              frameworks, contributing to team-based development, and refining
-              my problem-solving skills through algorithm practice. Looking
-              forward, I aim to grow as a software engineer in fintech, where I
-              can work on tools that impact people’s financial decisions and
-              make technology more accessible.
-            </p>
-          </section>
+          <section id="about" className="mb-48 space-y-10">
+          <h2 className="text-5xl font-bold text-white">About Me</h2>
+          <p className="text-lg text-gray-400 leading-loose">
+            I’m a{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              computer science undergraduate
+            </span>{" "}
+            at Lehigh University with a strong interest in{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              software engineering
+            </span>
+            ,{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              AI
+            </span>
+            , and{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              fintech
+            </span>
+            . Over the past few years, I’ve built{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              full-stack web apps
+            </span>
+            ,{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              mobile experiences
+            </span>
+            , and{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              AI-powered tools
+            </span>
+            , giving me a strong foundation across{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              frontend
+            </span>
+            ,{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              backend
+            </span>
+            , and{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              data technologies
+            </span>
+            . My main focus is crafting clean, performant, and modern apps using{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              React
+            </span>
+            ,{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              Next.js
+            </span>
+            , and{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              TypeScript
+            </span>
+            . On the backend, I’ve worked with{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              Java
+            </span>
+            ,{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              Node.js
+            </span>
+            , and{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              PostgreSQL
+            </span>
+            . I’m also deeply interested in{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              computer vision
+            </span>{" "}
+            and{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              data-driven applications
+            </span>
+            , where I see huge potential to combine technical rigor with creativity. 
+            <br/> <br/>
+            Outside of class and projects, I’m constantly learning new frameworks,
+            collaborating on{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              team-based development
+            </span>
+            , and refining my{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              problem-solving skills
+            </span>{" "}
+            through algorithm practice. Looking forward, I aim to grow as a{" "}
+            <span className="text-cyan-100 font-semibold drop-shadow-[0_0_6px_rgba(34,211,238,0.8)]">
+              software engineer in fintech
+            </span>
+            , building tools that make technology more accessible and impactful.
+          </p>
+        </section>
 
           {/* Experience Section */}
           <section id="experience" className="mb-24 lg:mb-48 space-y-10">
